@@ -1,0 +1,32 @@
+.no-proj-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+.no-proj-container img{
+    width: 60px;
+}
+.para-bold{
+    color: rgba(45, 52, 54, .8);
+    font-size: 18px;
+    font-weight: 600;
+}
+.para-normal{
+    color: rgba(45, 52, 54, .6);
+    font-size: 17px;
+}
+.no-proj-container button{
+    background-color: rgba(5, 148, 68, 0.7);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgba(245, 245, 245, 0.7);
+}
+.no-proj-container button:hover{
+    background-color: rgba(5, 148, 68, 1);
+    color: rgba(245, 245, 245, 1);
+}

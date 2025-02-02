@@ -1,0 +1,33 @@
+.add-proj-container{
+    width: 100%;
+}
+.add-proj-container section{
+    width: 50%;
+    margin-top: 70px;
+}
+.btn-sec{
+    display: flex;
+    gap: 7px;
+    justify-content: end;
+}
+.btn-sec button{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cancle-btn{
+    background-color: #fff;
+    color: rgba(45, 52, 54, .9);
+}
+.cancle-btn:hover{
+    color: rgba(45, 52, 54, 1);
+}
+.save-btn{
+    background-color: rgba(5, 148, 68, 0.9);
+    color: rgba(245, 245, 245, 0.7);
+}
+.save-btn:hover{
+    background-color: rgba(5, 148, 68, 1);
+    color: rgba(245, 245, 245, 1);
+}
